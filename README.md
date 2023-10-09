@@ -1,0 +1,1 @@
+# Typing speed test web application utilizing JUnit and Selenium testing methods.

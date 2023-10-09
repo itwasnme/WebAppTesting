@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href={% static 'homeStyle.css' %}>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header id="showcase">
+    <h1>Typing Test</h1>
+    <p>Choose 'Mode A' to test the number of words you can type in under 1 minute.</p>
+    <p>Choose 'Mode B' to test how long you take to type the alphabet.</p>
+    <a href="{% url 'modeA' %}" class="button" name="modeA">Mode A</a>
+    <a href="{% url 'modeB' %}" class="button" name="modeB">Mode B</a>
+  </header>
+<!-- partial -->
+  
+</body>
+</html>

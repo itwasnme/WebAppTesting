@@ -1,0 +1,96 @@
+body {
+  background-color:#0b7ebf;
+  color: black;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.timer, .errors,
+.accuracy, .cpm, .wpm, .accerts {
+  background-color: #d5d6f7;
+  height: 90px;
+  width: 100px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 20%;
+  box-shadow: black 5px 8px 5px;
+}
+
+.cpm, .wpm  {
+  display: none;
+}
+
+.header_text {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm,
+.curr_wpm, .curr_accerts {
+  font-size: 3.5rem;
+}
+
+.quote {
+  background-color: #d5d6f7;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 45px;
+  box-shadow: black 5px 8px 5px;
+}
+
+.input_area {
+  background-color: #d5d6f7;
+  height: 200px;
+  width: 60%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 15px;
+  padding: 20px;
+  border: 0px;
+  box-shadow: black 5px 8px 5px;
+}
+
+.incorrect_char {
+  color: red;
+  text-decoration: underline;
+}
+
+.correct_char {
+  color: #12b325;
+}
+
+.restart_btn {
+  display: none;
+  background-color: #059993;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 0px;
+  box-shadow: black 5px 8px 5px;
+}
+
+.goBack_btn {
+  display: block;
+  background-color: #a9cfcd;
+  font-size: 0.9rem;
+  padding: 10px;
+  border: 0px;
+  box-shadow: black 5px 8px 5px;
+}
